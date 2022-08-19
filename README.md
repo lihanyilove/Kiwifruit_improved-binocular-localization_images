@@ -1,3 +1,7 @@
 # Kiwifruit_improved-binocular-localization_images
 This file contains 1266 pairs of kiwifruit binocular images (i.e., 2500 images) taken from Meixian Kiwifruit Experimental Station in Shaanxi province, China, from the seasons of “Hayward” kiwifruit flowering in the years of 2020 and 2021. Annotated dataset was randomly divided into training set (1750 images) and validation set (500 images) and testing set (250 images). The training set was augmented from 1750 images to 10500 images by the following data augmentation methods. The augmented methods selected here include image mirroring and rotation transformation. The kiwifruit and calyx were manually annotated as "K" and "C" in the images with rectangular annotations. The xml file number corresponds to the image number one to one, but it is not uploaded here, please contact fulsh@nwafu.edu.cn, longsheng.fu@wsu.edu if needed.
-# Original images
+# Original left  
+The file 'original left' contains the 1266 images collected by a binocular camera (MYNT EYE D1000-50/Color), with image numbers from 000001 to 001266. The image numbers from 000001 to 001250 were used for detection and the image numbers from 001250 to 001266 were adopt for localization.
+# Original right  
+The file 'original right' contains the 1266 images collected by a binocular camera (MYNT EYE D1000-50/Color), with image numbers from 000001 to 001266. The image numbers from 000001 to 001250 were used for detection and the image numbers from 001250 to 001266 were adopt for localization.
+# Augment
